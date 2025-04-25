@@ -77,15 +77,17 @@ public class Character : MonoBehaviour
 
     void Reverse()
     {
+       
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
-      
+            FindObjectOfType<GravityGlitchEffect>()?.TriggerGlitch();
             rb.gravityScale *= -1;
             Vector3 scale = transform.localScale;
             scale.y *= -1;
             transform.localScale = scale;
 
             CharacterAnim.SetBool("IsFalling", true);
+            CharacterAnim.SetBool("IsIdle", false);
             IsGrounded = false;
 
            
