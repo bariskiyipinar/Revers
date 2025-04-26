@@ -41,7 +41,7 @@ public class CharacterGhostEffect : MonoBehaviour
     private IEnumerator GhostEffect()
     {
         float timeElapsed = 0f;
-        Color targetColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0.2f);  
+        Color targetColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0);  
 
         
         while (timeElapsed < ghostEffectDuration)

@@ -19,6 +19,7 @@ public class Diyalog : MonoBehaviour
     [SerializeField] private Animator CharacterFall;
     [SerializeField] private AudioSource RetroMusic;
     private int index;
+    public static bool isMusic = false;
     void Start()
     {
         ReversText.enabled = false;
@@ -72,7 +73,7 @@ public class Diyalog : MonoBehaviour
             CharacterFall.SetBool("IsFalling", true);
             CharacterFall.SetBool("IsIdle", false);
 
-
+            isMusic = true; 
             RetroMusic.Play();
         }
 
