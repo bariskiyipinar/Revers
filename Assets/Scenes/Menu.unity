@@ -503,11 +503,9 @@ MonoBehaviour:
   diyalogText: {fileID: 2099934002}
   diyalogs:
   - MERHABA
-  - NASILSIN?
-  - IYI MISIN?
-  - BEN KOTUYUM
-  - HERSEY TERS
-  - BAK!
+  - BEN CYBORG
+  - REVERS DUNYASINA
+  - HOSGELDIN :)
   NextButton: {fileID: 1539836072}
   Speed: 0.1
   DiyologBubble: {fileID: 1728240893}
@@ -1112,15 +1110,15 @@ RectTransform:
   m_GameObject: {fileID: 1539836072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2747982, y: 2.2747982, z: 2.2747982}
+  m_LocalScale: {x: 2.0429966, y: 1.6677524, z: 2.0429966}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1728240894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7578893, y: 0.31667835}
   m_AnchorMax: {x: 0.95500004, y: 0.55}
-  m_AnchoredPosition: {x: -349.69983, y: 95.19996}
-  m_SizeDelta: {x: 158.67, y: 58.45}
+  m_AnchoredPosition: {x: -303.9569, y: 53.893482}
+  m_SizeDelta: {x: 158.67, y: 58.449997}
   m_Pivot: {x: -0.823949, y: 1.6260883}
 --- !u!114 &1539836076
 MonoBehaviour:
@@ -1225,8 +1223,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12
-  m_fontSizeBase: 12
+  m_fontSize: 9.64
+  m_fontSizeBase: 9.64
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1369,7 +1367,7 @@ RectTransform:
   m_GameObject: {fileID: 1728240893}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.80555, y: 0.80555, z: 0.80555}
+  m_LocalScale: {x: 0.9519773, y: 1.4868696, z: 0.9519773}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2099933999}
@@ -1378,7 +1376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.68200004, y: 0.38665786}
   m_AnchorMax: {x: 0.84900004, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: -6.899994}
+  m_AnchoredPosition: {x: -36.299988, y: -5.199997}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1728240895
@@ -1675,14 +1673,14 @@ RectTransform:
   m_GameObject: {fileID: 2099933998}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1528441, y: 0.9410972, z: 1.1528441}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1728240894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.060259532, y: 0.23332165}
   m_AnchorMax: {x: 1, y: 0.86667836}
-  m_AnchoredPosition: {x: 11, y: -10.3}
+  m_AnchoredPosition: {x: 51.699997, y: -19.199999}
   m_SizeDelta: {x: -1, y: 12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2099934001
@@ -1722,7 +1720,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4293918464
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -1740,8 +1738,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 23.34
+  m_fontSizeBase: 23.34
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1776,7 +1774,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -11.923233, y: -6.949051, z: 14.390598, w: 20.305368}
+  m_margin: {x: -18.160522, y: -13.715416, z: 64.796616, w: 20.305368}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -7,22 +7,30 @@ public class CharacterGhostEffect : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     private bool isGhost = false;
+    private bool canFlashVisible = false;
 
-    public float ghostEffectDuration = 1f;  
-    public float fadeSpeed = 0.5f;  
+    public float ghostEffectDuration = 1f;
+    public float fadeSpeed = 0.5f;
+    public float flashVisibleDuration = 0.3f;  
 
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        originalColor = spriteRenderer.color;  
+        originalColor = spriteRenderer.color;
+    }
+
+    private void Update()
+    {
+        if (isGhost && Input.GetKeyDown(KeyCode.Space))
+        {
+            StartCoroutine(FlashVisible());
+        }
     }
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        
         if (other.CompareTag("GhostStart") && !isGhost)
         {
-           
             isGhost = true;
             StartCoroutine(GhostEffect());
         }
@@ -30,7 +38,6 @@ public class CharacterGhostEffect : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        
         if (other.CompareTag("GhostStart") && isGhost)
         {
             isGhost = false;
@@ -41,15 +48,16 @@ public class CharacterGhostEffect : MonoBehaviour
     private IEnumerator GhostEffect()
     {
         float timeElapsed = 0f;
-        Color targetColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0);  
+        Color targetColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0);
 
-        
         while (timeElapsed < ghostEffectDuration)
         {
             spriteRenderer.color = Color.Lerp(originalColor, targetColor, timeElapsed / ghostEffectDuration);
             timeElapsed += Time.deltaTime;
             yield return null;
         }
+
+        spriteRenderer.color = targetColor;
     }
 
     private IEnumerator RestoreOriginalAppearance()
@@ -61,5 +69,20 @@ public class CharacterGhostEffect : MonoBehaviour
             timeElapsed += Time.deltaTime;
             yield return null;
         }
+
+        spriteRenderer.color = originalColor;
+    }
+
+    private IEnumerator FlashVisible()
+    {
+        
+        Color flashColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0.2f);
+        spriteRenderer.color = flashColor;
+
+        yield return new WaitForSeconds(flashVisibleDuration);
+
+       
+        Color transparentColor = new Color(originalColor.r, originalColor.g, originalColor.b, 0);
+        spriteRenderer.color = transparentColor;
     }
 }

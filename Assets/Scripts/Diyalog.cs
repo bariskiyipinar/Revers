@@ -24,6 +24,7 @@ public class Diyalog : MonoBehaviour
     {
         ReversText.enabled = false;
         StartCoroutine(DiyalogsTime());
+        NextButton.SetActive(false);
     }
     void Update()
     {
@@ -32,10 +33,7 @@ public class Diyalog : MonoBehaviour
             NextButton.SetActive(true);
 
         }
-
       
-
-     
     }
 
     IEnumerator DiyalogsTime()

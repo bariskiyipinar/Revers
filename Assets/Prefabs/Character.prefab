@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 9066953318302865735}
   - component: {fileID: 5638974077609570335}
   - component: {fileID: 3537390013607003707}
+  - component: {fileID: 1123842149228511253}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -125,6 +126,14 @@ MonoBehaviour:
   speed: 3
   rb: {fileID: 9066953318302865735}
   CharacterAnim: {fileID: 8416692459951705136}
+  Entry1: {fileID: 0}
+  Entry2: {fileID: 0}
+  HearthPrefab: {fileID: 7002569926030509896, guid: ebb961afb86f7584faa6e5b950180608, type: 3}
+  BrokenObstacles: {fileID: 0}
+  heartPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!50 &9066953318302865735
 Rigidbody2D:
   serializedVersion: 4
@@ -139,7 +148,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -161,7 +170,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 3975274411027746094}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 1f02821f3e57ee44e8a7b4f24aedc950, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -184,7 +193,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.0023861453}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -195,7 +204,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19, y: 0.35}
+  m_Size: {x: 0.19, y: 0.34522766}
   m_EdgeRadius: 0
 --- !u!114 &3537390013607003707
 MonoBehaviour:
@@ -211,3 +220,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghostEffectDuration: 1
   fadeSpeed: 0.5
+  flashVisibleDuration: 0.3
+--- !u!114 &1123842149228511253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3975274411027746094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c23e6da81c541bd419c536e4466e9b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portals:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
