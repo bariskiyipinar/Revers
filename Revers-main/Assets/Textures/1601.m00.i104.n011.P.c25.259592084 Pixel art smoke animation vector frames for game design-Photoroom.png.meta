@@ -1,0 +1,544 @@
+fileFormatVersion: 2
+guid: 77ef54d51b7413c499c77f966456106a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 567
+        width: 222
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc38ff0633ecd5c4593b43fb375e2abc
+      internalID: -451872394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_1
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 567
+        width: 262
+        height: 291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b155ccd840130694eba8389855da62b3
+      internalID: -802810248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_2
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 567
+        width: 329
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c566d566a00f00499d113f5d49614bd
+      internalID: 90596173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 77
+        width: 349
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55b745005434824eaf59c47f2a2e401
+      internalID: 534229136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 251
+        width: 261
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb2ace620af3ca40945c38fc72c5a3b
+      internalID: -686743185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 290
+        width: 222
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcca34f7c8d31a43a2d601f624ed721
+      internalID: 1894663353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 437
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0997d83bf44e0f34bbe9eda3e0343b0f
+      internalID: -263816826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 437
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04721767ec57a0a47908afbb54a5006f
+      internalID: 876073704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_8
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 408
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc964367eb4858f45884c13cffaa5535
+      internalID: -484134489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 359
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed99ef6db4ca56e4d9a570f9732ce962
+      internalID: -193616877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 321
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314702463e34604428b534dc88231ef7
+      internalID: -173789242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_11
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 298
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186cadbc7bf8eae428670f381e827cb4
+      internalID: -1262287919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_12
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 271
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca15d8bbffba3b43b57a37ffc26f32e
+      internalID: 1929457870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_13
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 279
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bbe257cbfb6604f8f7bb588ae363c9
+      internalID: 461821184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_14
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 221
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce130b8d6f92fcc4d8bb759b230fc583
+      internalID: -1971752847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_15
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 232
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e46b44d7dc54640848aab32eb42e59
+      internalID: 495455930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames
+        for game design-Photoroom_16
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 241
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db97e2132e8714d438fd4b8da943f425
+      internalID: -438696170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_0: -451872394
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_1: -802810248
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_10: -173789242
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_11: -1262287919
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_12: 1929457870
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_13: 461821184
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_14: -1971752847
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_15: 495455930
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_16: -438696170
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_2: 90596173
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_3: 534229136
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_4: -686743185
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_5: 1894663353
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_6: -263816826
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_7: 876073704
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_8: -484134489
+      1601.m00.i104.n011.P.c25.259592084 Pixel art smoke animation vector frames for game design-Photoroom_9: -193616877
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
