@@ -191,7 +191,10 @@ public class Character : MonoBehaviour
             Destroy(collision.gameObject);
             BrokenObstacles.SetActive(true);
         }
-
+        if (collision.gameObject.CompareTag("MiniEnemy"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
 

@@ -39,6 +39,10 @@ TagManager:
   - Dash
   - Happy2
   - Broken
+  - Boss
+  - MiniEnemy
+  - Return
+  - EnemyDead
   layers:
   - Default
   - TransparentFX
