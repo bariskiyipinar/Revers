@@ -68,7 +68,7 @@ public class GravityGlitchEffect : MonoBehaviour
 
     public void TriggerGlitch()
     {
-        if (isGlitching) return; // Zaten glitch aktifse tekrar baþlatma.
+        if (isGlitching) return; 
         StartCoroutine(GlitchRoutine());
     }
 

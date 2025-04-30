@@ -12,6 +12,7 @@ public class Character : MonoBehaviour
     [SerializeField] private Animator Entry1,Entry2;
     [SerializeField] private GameObject HearthPrefab;
     [SerializeField] private GameObject BrokenObstacles;
+    [SerializeField] private AudioSource DamageSound;
     private bool facingRight = true;
     private bool IsGrounded = false;
     [SerializeField] private List<RectTransform> heartPoints;
@@ -172,6 +173,7 @@ public class Character : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Enemy1"))
         {
             AddHeart();
+            DamageSound.Play();
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Happy"))

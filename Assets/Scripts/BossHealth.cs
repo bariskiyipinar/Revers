@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI; 
+
 
 public class BossHealth : MonoBehaviour
 {
@@ -11,7 +13,8 @@ public class BossHealth : MonoBehaviour
     private Animator dead;
     public Image healthBar;
 
-    public Image flashImage;
+    public GameObject Panel;
+    public Animator reversF; 
 
     void Start()
     {
@@ -19,6 +22,8 @@ public class BossHealth : MonoBehaviour
         UpdateHealthBar(); 
         dead=GetComponent<Animator>();
         dead.SetBool("Isdead", false);
+        Panel.SetActive(false);
+        reversF.enabled = false;
     }
 
  
@@ -44,11 +49,23 @@ public class BossHealth : MonoBehaviour
         Debug.Log("Boss öldü!");
         dead.SetBool("Isdead", true);
         StartCoroutine(FinishGame());
+        Panel.SetActive(true);
+        reversF.enabled = true;
+        reversF.Play("ReversF");
+
+
     }
      IEnumerator FinishGame()
     {
         yield return new WaitForSeconds(3f);
         Time.timeScale = 0;
+
+        Application.Quit();
+        FinishButton();
+    }
+    public void FinishButton()
+    {
+        Application.Quit();
     }
   
     void UpdateHealthBar()

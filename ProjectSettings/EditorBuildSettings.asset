@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/introSahne/introSahne.unity
+    guid: da4b99574781a4c469a61c189689d1c7
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 7e569f60f016850429875707f7db4aaa
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/NewLevels/level1.unity
+    guid: f5d4be4eae16d7240b0f5bc2704121c4
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
-    guid: 5b3f7ab4b992e6747b24174fcf8c0b7d
+    path: Assets/Scenes/NewLevels/Level2.unity
+    guid: bd7064690fcb8f043901770a6402208c
   - enabled: 1
     path: Assets/Scenes/Boss.unity
-    guid: ccb812bcf34c90040a74147f560bf6c5
+    guid: b6f4d283a31021846af4cccafb12ac15
   m_configObjects: {}
